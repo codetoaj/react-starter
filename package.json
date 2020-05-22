@@ -8,7 +8,11 @@
     "start": "webpack-dev-server --open --config ./config/webpack.dev.js --port 3000",
     "build": "webpack --config ./config/webpack.prod.js"
   },
-  "keywords": ["react-starter", "react", "webpack4"],
+  "keywords": [
+    "react-starter",
+    "react",
+    "webpack4"
+  ],
   "author": "Amalan Jenicious F",
   "license": "ISC",
   "devDependencies": {
@@ -31,6 +35,7 @@
   },
   "dependencies": {
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.2.0"
   }
 }

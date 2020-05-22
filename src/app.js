@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/app.scss';
-import reactimg from './assets/react.png';
+import Routes from './routes';
 
 class App extends React.Component {
   componentDidMount() {
@@ -8,10 +8,7 @@ class App extends React.Component {
   }
   render() {
     return (
-      <div className="app">
-        <h1>React Starter</h1>
-        <img src={reactimg} alt="React Starter" />
-      </div>
+      <Routes />
     )
   }
 }
