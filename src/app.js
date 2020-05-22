@@ -1,14 +1,15 @@
 import React from 'react';
 import './styles/app.scss';
 import Routes from './routes';
+import { Provider } from 'react-redux';
+import store from './redux/store'
 
 class App extends React.Component {
-  componentDidMount() {
-    console.log("React running...")
-  }
   render() {
     return (
-      <Routes />
+      <Provider store={store}>
+        <Routes />
+      </Provider>
     )
   }
 }
